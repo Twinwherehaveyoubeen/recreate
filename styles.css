@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.WebsiteH{
+    background-color: black;
+    height: 70px;
+}
+.on{
+    color: grey;
+    background-color: transparent;
+    border: transparent;
+}
+.plus{
+background-color: rgb(71, 207, 115);
+width: 60px;
+border-radius: 5px;
+}
+.follow{
+    font-size: 10px;
+}
+.plus1{
+font-size: 16px;
+}
+.heart{
+    background-color: rgb(68, 72, 87);
+    color: rgb(255, 255, 255);
+   width: 50px;
+   height: 40px;
+   font-size: 20px;
+   border-radius: 5px;
+  
+}
+.heart1{
+    background-color: rgb(68, 72, 87);
+    color: rgb(255, 255, 255);
+   width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.heart2{
+    background-color: rgb(68, 72, 87);
+    color: rgb(255, 255, 255);
+   width: 50px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.sign{
+    background-color: rgb(71, 207, 115);
+   width: 60px;
+   height: 40px;
+   font-size: 15px;
+   border-radius: 5px;
+}
+.info{
+    float: right;
+    margin-right: 30px;
+    margin-top: -40px;
+}
+.let{
+    color: white;
+  
+}
+.img1{
+    width: 80px;
+    height: 70px;
+}
+.onclick{
+    margin-left: 60px;
+    margin-top: -55px;
+}
+
+/* The secondd header */
+
