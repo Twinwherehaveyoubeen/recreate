@@ -3,11 +3,13 @@
     padding: 0%;
 }
 .WebsiteH{
-    background-color: black;
+   
     height: 70px;
 }
 .webheader{
     position: fixed;
+    background-color: black;
+    width: 100%;
 }
 .on{
     color: grey;
@@ -60,7 +62,7 @@ font-size: 16px;
 .info{
     float: right;
     margin-right: 30px;
-    margin-top: -40px;
+    margin-top: -50px;
 }
 .let{
     color: white;
@@ -84,7 +86,7 @@ font-size: 16px;
     transition: background-color 0.5s;
     height: 100px;
     position: fixed;
-   
+   margin-top: -5px;
 }
 .st{
     color: white;
@@ -139,3 +141,152 @@ color: white;
     background-color: white;
     margin-top: 6,000px;
 }
+.how{
+    height: 300px;
+    background-color: #e6e6e6;
+}
+.icon{
+    color: orange;
+    font-size: 60px;
+   margin-left: 170px;
+}
+.lorem{
+    font-size: 20px;
+    width: 400px;
+    text-align: center;
+}
+.works{
+    font-size: 40px;
+    color: orange;
+    display: flex;
+    justify-content: center;
+}
+/* making the rows for tbe second section  */
+.house{
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.money{
+    float: right;
+   
+    margin-top: -155px;
+}
+.chart{
+float: right;
+margin-right: 260px;
+margin-top: -154px;
+}
+
+/* making next section for properties  */
+ .container h2{
+    color: orange;
+   font-size: 50px;
+   margin-left: 360px;
+ }
+ #properties {
+    margin: 4rem 0 8rem;
+    position: relative;
+    height: 400px;
+}
+
+ .container {
+    position: relative;
+}
+
+ .container:before {
+    content: "/";
+    position: absolute;
+    right: 80px;
+    top: 18px;
+    color: #999;
+}
+
+a.slick-arrow {
+    color: #000;
+    position: absolute;
+    top: -78px;
+    right: 0;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+}
+
+ a.slick-prev {
+    right: 80px;
+}
+
+.slick-slide {
+    padding: 0 15px;
+}
+
+
+ .property-details {
+    padding: 1rem;
+    flex-direction: column;
+}
+
+ .price {
+    font-size: 1.2rem;
+    color: #343a40;
+    font-weight: 800;
+    margin: 0 0 0.5rem 0;
+}
+ .property-details span {
+    font-size: 0.8rem;
+    padding-right: 15px;
+}
+
+ .property-details span.baths {
+    padding-left: 10px;
+}
+
+ .property-details span.sqft {
+    padding-right: 0;
+    padding-left: 10px;
+}
+
+.property-details span.beds,
+ .property-details span.baths {
+    border-right: 1px solid #888;
+}
+
+ .property-details address {
+    font-size: 0.8rem;
+    font-style: normal;
+    margin-top: 0.5rem;
+}
+ button.rounded {
+    display: block;
+    margin: 2rem auto 0;
+    width: 300px;
+    margin-top: 200px;
+    height: 40px;
+    background-color: rgb(243, 163, 14);
+    color: white;
+    border: transparent;
+    border-radius: 20px;
+    font-size: 15px;
+}
+.rounded:hover{
+background-color: orange;
+color: black;
+}
+.selectionP{
+    margin-left: 350px;
+    margin-top: 100px;
+}
+.selectionP1{
+    float: right;
+    margin-right: 450px;
+    
+}
+.selectionP2{
+    float: right;
+}
+.selectionP3{
+    float: right;
+}
+.prop{
+    margin-top: -100;
+}
+/* Making the Agent Part */
