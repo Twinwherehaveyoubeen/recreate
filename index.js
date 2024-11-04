@@ -1,9 +1,16 @@
-
 window.addEventListener('scroll', function() {
-    const header = document.getElementById('header');
-    if (window.scrollY > 50) {
-        header.style.backgroundColor = '#4CAF50';
+    const stated = document.querySelector('.stated');
+    if (window.scrollY > 50) { 
+        stated.classList.add('scrolled');
     } else {
-        header.style.backgroundColor = '#ff9800';
+        stated.classList.remove('scrolled');
+    }
+});
+window.addEventListener('scroll', function() {
+    const headerText = document.querySelector('.st');
+    if (window.scrollY > 50) {
+        headerText.classList.add('gray');
+    } else {
+        headerText.classList.remove('gray');
     }
 });

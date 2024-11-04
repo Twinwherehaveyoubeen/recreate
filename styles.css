@@ -10,6 +10,7 @@
     position: fixed;
     background-color: black;
     width: 100%;
+    z-index: 10;
 }
 .on{
     color: grey;
@@ -79,20 +80,29 @@ font-size: 16px;
 
 /* The second header */
 
-.stated{
-    background-color: rgba(52, 59, 64, 0.9);
+.stated {
+    position: fixed;
+    background-color: #343a40; 
     color: #ffffff;
     width: 100%;
     transition: background-color 0.5s;
     height: 100px;
-    position: fixed;
-   margin-top: -5px;
+    top: 70px;
+    z-index: 10;
+    margin-top: -5;
+}
+.stated.scrolled {
+    background-color: rgb(235, 235, 235); 
+    color: black;
 }
 .st{
     color: white;
     margin-left: 350px;
     padding: 25px;
   
+}
+.st.gray {
+    color: black;
 }
 .HomeBtn{
     color: rgb(144, 143, 143);
@@ -114,7 +124,8 @@ font-size: 16px;
 .body1{
     height: 800px;
     background-color: rgba(52, 59, 64, 0.9);
-   display: flex;
+   
+   padding-top: 170px;
 }
 
 
@@ -178,7 +189,7 @@ margin-top: -154px;
 }
 
 /* making next section for properties  */
- .container h2{
+ .pr{
     color: orange;
    font-size: 50px;
    margin-left: 360px;
@@ -290,3 +301,467 @@ color: black;
     margin-top: -100;
 }
 /* Making the Agent Part */
+.agents{
+    border: 2px solid black;
+    border-bottom:  grey;
+}
+.card{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 35px;
+} 
+.card1{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: -160px;
+} 
+.card2{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: 140px;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 900px;
+    margin-top: -160px;
+} 
+.card3{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 1250;
+    margin-top: -160px;
+} 
+.card4{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 200px;
+    margin-top: 50px;
+    
+} 
+
+.card5{
+    border: 5px transparent transparent;
+    width: 300px;
+    height: fit-content;
+    background-color: grey;
+    flex-direction: column;
+    padding: 10px;
+    margin-left: 550px;
+    margin-top: -160px;
+} 
+.large-paragraph{
+    margin-left: 200px;
+}
+
+.pics{
+    width: 100px;
+
+}
+.pics1{
+    width: 100px;
+height: 100px;
+}
+.flex, p, h3{
+    font-weight: 100;
+}
+.ag{
+    margin-left: 200px;
+    font-size: 50px;
+    color: orange;
+}
+
+/* Making the css for the Estate Company */
+.EstateC{
+    font-size: 40px ;
+color: orange;
+
+width: 400px;
+margin-right: 400px;
+
+}
+.large-paragraph1{
+    font-size: 25px;
+    font-weight: 100px;
+   
+}
+.rounded1{
+background-color: orange;
+color: white;
+border-radius: 25px;
+width: 150px;
+height: 40px;
+font-size: 15px;
+border-color: transparent;
+
+}
+#the-best{
+    float: right;
+    margin-top: 200px;
+}
+.bullets{
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-left: 30px;
+}
+.large-paragraph1{
+    padding: 10px;
+    width: 400px;
+}
+.small{
+    font-size: 20px;
+    width: 550px;
+    margin-left: 10px;
+}
+/* making the services */
+#services{
+    margin-top: 800px; 
+    height: 600px;
+}
+.ser{
+    color: orange;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    
+}
+.services-card-right{
+    width: 230px;
+    padding: 5px;
+    color: grey;
+    
+}
+.headerser{
+    font-size: 25px;
+    padding: 10px;
+    
+}
+.homes{
+    margin-left: 400px;
+}
+.buyingp{
+    margin-left: 780px ;
+    margin-top: -150px;
+}
+.investingp{
+    margin-left: 1150px;
+    margin-top: -150px;
+}
+.listingp{
+    margin-left:400px ;
+}
+.Propertyp{
+    margin-left: 780px;
+    margin-top: -150px;
+}
+.Statedap{
+margin-left: 1150px;
+margin-top: -150px;
+}
+.linnks{
+    color: orange;
+   text-decoration: none;
+}
+.linnks:hover{
+   
+    text-decoration: underline;
+    
+}
+.bul{
+    float: right;
+    margin-top: 200px;
+    height: 600px;
+}
+.iconsser{
+    color: orange;
+    font-size: 60px;
+}
+.houseser{
+    margin-left: 350;
+    margin-top:-330 ;
+}
+.cashser{
+    margin-left: 720px;
+    margin-top: -50px;
+}
+.chartser{
+    margin-left: 1090px;
+    margin-top: -60px;
+}
+.buildingser{
+    margin-left: 350px;
+    margin-top: 90px;
+}
+.mag{
+    margin-left: 720px;
+    margin-top: -50px;
+}
+.phone{
+    margin-left: 1090px ;
+    margin-top: -60px;
+}
+.flex{
+    margin-top: 50px;
+    
+}
+#testimonials {
+    margin-bottom: 8rem;
+}
+
+#testimonials h2 {
+    text-align: center;
+}
+
+#testimonials-slider .slick-slide {
+    text-align: center;
+}
+
+#testimonials-slider blockquote {
+    font-size: 1.5rem;
+    font-style: italic;
+    margin: 1rem auto 3rem;
+    max-width: 740px;
+}
+
+#testimonials-slider .testimonials-caption {
+    width: 200px;
+    margin: 0 auto;
+}
+
+#testimonials-slider .testimonials-caption img {
+    float: left;
+    border-radius: 30px;
+    width: 60px;
+}
+
+.testimonials-caption p {
+    position: relative;
+    top: 13px;
+    font-size: 1.2rem;
+}
+
+#testimonials-slider .slick-arrow {
+    text-decoration: none;
+    position: absolute;
+    font-size: 40px;
+    color: #222;
+    top: 50%;
+    margin-top: -35px;
+    z-index: 1;
+}
+#testimonials-slider .slick-next {
+    right: 0;
+}
+/* footer */
+footer{
+    margin-top: 300px;
+    height: 300;
+    background-color: #313233;
+    margin-top: -50px;
+}
+h5{
+    color: white;
+    font-size: 20px;
+    
+}
+.footer-quick-links{
+    margin-left: 800px;
+
+}
+.footer-subscribe{
+    margin-top: -175px;
+}
+.footer-quick-links li{
+    padding: 10px;
+}
+.footer-quick-links a{
+color: grey;
+    text-decoration: none;
+    
+}
+.footer-quick-links a:hover{
+    color: white;
+}
+small{
+    color: grey;
+    margin-left: 600px;
+    margin-top: 30px;
+}
+small a {
+    color: grey;
+    text-decoration: none;
+}
+small a:hover{
+    color: white;
+}
+.fab{
+color: grey;
+padding: 10px;
+margin-right: 10px;
+}
+.fab:hover{
+    font-size: 30px;
+    color: white;
+}
+.right-rounded{
+    background-color: orange;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 15px;
+    width: 100px;
+    height: 46px;
+    padding: 0px;
+  
+}
+.footer-subscribe input{
+    background-color: transparent;
+    border: 1px solid grey;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 300px;
+    font-size: 15px;
+    height: 42px;
+   margin-left: 1000px;
+   padding: 0px;
+   margin-top: 50px;
+}
+
+.emailen{
+    margin-right: -5px;
+    margin-top: 7px;
+}
+.right-rounded:hover{
+    background-color: white;
+}
+.tw{
+    display: column;
+}
+.fac{
+    
+  margin-left: 990;
+    margin-top: 30px;
+
+}
+.fo{
+    padding: 10px;
+ float: right;
+ margin-right: 630;
+}
+.news{
+    margin-left: 1000px;
+}
+.isp{
+    width: 300px;
+    padding: 10px;
+    color: grey;
+}
+.footer-about{
+    margin-left: 400px;
+    margin-bottom: -120px;
+}
+/* making the contact for */
+#contact{
+    height: 800px;
+}
+.contactus{
+    color: orange;
+    font-size: 40px;
+    font-weight: 100px;
+    display: flex;
+    justify-content: center;
+}
+#form-container{
+height: 600;
+width: 600px;
+background-color: white;
+margin-top: -60; 
+margin-left: 340px;
+}
+.inputs{
+border-radius: 20px;
+border: 1px solid black;
+height: 40px;
+margin-left: 15px;
+
+}
+#message{
+    width: 560px;
+    border-radius: 20px;
+    height: 200px;
+}
+.movement{
+    margin-top: 30px;
+}
+.form1{
+   margin-top: 100px;
+   margin-left: 15px;
+}
+.movement label{
+    margin-left: 15px;
+}
+.write{
+    margin-left: 20px;
+}
+.mess{
+   
+ margin-left: 15px;
+}
+.mess1{
+    margin-bottom: 10px;
+}
+.me{
+    font-size: 17px;
+    margin-left: 15px;
+}
+.rounded2{
+    background-color: orange;
+    color: white;
+    border: 1px;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+#contact{
+    background-color: rgb(237, 237, 237);
+}
+#address-container{
+    background-color: white;
+    width: 500px;
+    float: right;
+    margin-top: -600px;
+    margin-right: 200px;
+}
+address{
+    width: 350px;
+}
+.ad{
+  margin-left: 15px;
+  padding: 20px;
+}
+.ora{
+    color: orange;
+    text-decoration:none ;
+}
+.ora:hover{
+text-decoration: underline;
+}
